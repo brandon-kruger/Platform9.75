@@ -1,3 +1,10 @@
+/*
+Cinema.java
+Entity for Cinema
+Author: Brandon Lee Kruger (216049245)
+Date: 08 April 2022
+* */
+
 package entity;
 
 public class Cinema {
