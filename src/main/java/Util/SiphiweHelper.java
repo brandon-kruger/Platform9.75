@@ -1,5 +1,11 @@
-package Util;
+/*
+ *  Name: Siphiwe Edson Chauque
+ *  Student Number: 219084777
+ *  Group: 26
+ *
+ */
 
+package Util;
 import java.util.UUID;
 
 public class SiphiweHelper {

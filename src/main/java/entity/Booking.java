@@ -1,8 +1,17 @@
+/*
+ *  Name: Siphiwe Edson Chauque
+ *  Student Number: 219084777
+ *  Group: 26
+ *
+ */
+
 package entity;
 
 public class Booking<Ticket, User> {
     private int referenceNumber,foodNumber, beverageNumber;
-    private String date, time, location;
+    private String date;
+    private static String time;
+    private String location;
     private Ticket ticket;
     private User user;
 
@@ -45,7 +54,7 @@ public class Booking<Ticket, User> {
         return date;
     }
 
-    public String getTime() {
+    public static String getTime() {
         return time;
     }
 

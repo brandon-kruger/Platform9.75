@@ -1,12 +1,11 @@
+/*
+ *  Name: Siphiwe Edson Chauque
+ *  Student Number: 219084777
+ *  Group: 26
+ *
+ */
+
 package Factory;
-//*
-//        *  Name: Siphosethu
-//        *  Student Number: 217237614
-//        *  Group: 10
-//        *
-//        */
-
-
 import Util.SiphiweHelper;
 import entity.Timeslot;
 

@@ -1,3 +1,10 @@
+/*
+ *  Name: Siphiwe Edson Chauque
+ *  Student Number: 219084777
+ *  Group: 26
+ *
+ */
+
 package entity;
 
 public class Timeslot<screeningRoom> {
@@ -16,6 +23,10 @@ public class Timeslot<screeningRoom> {
         this.screeningRoom = screeningRoom;
         this.Time = Time;
         this.isAvailable = isAvailable;
+    }
+
+    public static String getIsAvailable() {
+        return null;
     }
 
     public screeningRoom getScreeningRoom() {
