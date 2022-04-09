@@ -1,18 +1,22 @@
 package entity;
 
-public class Booking {
+public class Booking<Ticket, User> {
     private int referenceNumber,foodNumber, beverageNumber;
     private String date, time, location;
+    private Ticket ticket;
+    private User user;
 
 
     public Booking(String date, String time, String location, int referenceNumber, int foodNumber,
-                    int beverageNumber) {
+                    int beverageNumber,Ticket ticket, User user) {
         this.date = date;
         this.time = time;
         this.location = location;
         this.referenceNumber = referenceNumber;
         this.foodNumber = foodNumber;
         this.beverageNumber = beverageNumber;
+        this.ticket = ticket;
+        this.user =user;
     }
 
     private Booking(Builder builder)
