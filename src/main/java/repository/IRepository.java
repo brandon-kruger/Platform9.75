@@ -10,7 +10,7 @@ import entity.Booking;
 
 public interface IRepository<T,ID> {
     T create(T t);
-    Booking read(String id);
+    T read(T ID);
     T update(T t);
     boolean delete(ID id);
 }

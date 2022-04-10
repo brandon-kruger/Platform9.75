@@ -3,8 +3,9 @@ KioskFactoryTest.java
 Author: Brandon Lee Kruger (216049245)
 Date: 08 April 2022
 * */
-package Factory;
+package factoryTest;
 
+import Factory.KioskFactory;
 import org.junit.jupiter.api.Test;
 import za.ac.cput.entity.Kiosk;
 

@@ -3,8 +3,9 @@ CinemaFactoryTest.java
 Author: Brandon Lee Kruger (216049245)
 Date: 10 April 2022
 * */
-package Factory;
+package factoryTest;
 
+import Factory.CinemaFactory;
 import org.junit.jupiter.api.Test;
 import za.ac.cput.entity.Cinema;
 
