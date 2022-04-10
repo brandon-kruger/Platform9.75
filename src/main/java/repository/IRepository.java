@@ -1,16 +1,8 @@
-/*
- *  Name: Siphiwe Edson Chauque
- *  Student Number: 219084777
- *  Group: 26
- *
- */
-
 package repository;
-import entity.Booking;
 
-public interface IRepository<T,ID> {
+public interface IRepository<T, ID> {
     T create(T t);
-    Booking read(String id);
+    T read(ID id);
     T update(T t);
-    boolean delete(ID id);
+    void delete(ID id);
 }
