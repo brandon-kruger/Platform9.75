@@ -13,6 +13,7 @@ Various membership levels
 The ability to add consumables to your booking.
 The ability to check available time slots without the need to phone in first.
 
+## Group Members
 
 | Student No | Name            | 
 |------------|-----------------|
@@ -23,6 +24,7 @@ The ability to check available time slots without the need to phone in first.
 | 219369399  | Lutho Nondala   |
 | 219084777  | Siphiew Chauque |
 
+## UML Diagram
 <img
   src="src/Group 26 - Cinema Ticket Booking System.jpg"
   alt="Image containing a diagram for our project."
