@@ -3,7 +3,7 @@ Kiosk.java
 Entity for Kiosk
 Author: Brandon Lee Kruger (216049245)
 Date: 10 April 2022
-* */
+** */
 package za.ac.cput.entity;
 
 public class Kiosk {

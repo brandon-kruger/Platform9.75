@@ -2,7 +2,7 @@
 Cinema.java
 Entity for Cinema
 Author: Brandon Lee Kruger (216049245)
-Date: 08 April 2022
+Date: 10 April 2022
 * */
 
 package za.ac.cput.entity;
