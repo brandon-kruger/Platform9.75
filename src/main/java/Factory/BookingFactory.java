@@ -20,8 +20,12 @@ public class BookingFactory {
                 .setReferenceNumber(referenceNumber)
                 .setDate(date)
                 .setTime(Time)
+                .setLocation(location)
                 .setFoodNumber(foodNumber)
+                .setBeverageNumber(beverageNumber)
                 .build();
         return Booking;
     }
+
+
 }

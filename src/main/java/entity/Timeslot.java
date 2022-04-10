@@ -2,18 +2,17 @@
  *  Name: Siphiwe Edson Chauque
  *  Student Number: 219084777
  *  Group: 26
- *
  */
 
 package entity;
 
-public class Timeslot<screeningRoom> {
+public class Timeslot {
 
-    private screeningRoom screeningRoom;
-    private double Time;
-    private boolean isAvailable;
+    private String screeningRoom;
+    private String Time;
+    public static String isAvailable;
 
-    public Timeslot(screeningRoom screeningRoom, double Time, boolean isAvailable) {
+    public Timeslot(String screeningRoom, String Time, String isAvailable) {
         this.screeningRoom = screeningRoom;
         this.Time = Time;
         this.isAvailable = isAvailable;
@@ -29,35 +28,36 @@ public class Timeslot<screeningRoom> {
         return null;
     }
 
-    public screeningRoom getScreeningRoom() {
+
+    public String getScreeningRoom() {
         return screeningRoom;
     }
 
-    public double getTime() {
+    public String getTime() {
         return Time;
     }
 
-    public boolean isAvailable() {
+    public String isAvailable() {
         return isAvailable;
     }
 
-    public class Builder {
+    public static class Builder {
 
-        private Object screeningRoom;
-        private double Time;
-        private boolean isAvailable;
+        private String screeningRoom;
+        private String Time;
+        private String isAvailable;
 
-        public Builder setScreeningRoom(screeningRoom screeningRoom) {
+        public Builder setScreeningRoom(String screeningRoom) {
             this.screeningRoom = screeningRoom;
             return this;
         }
 
-        public Builder setTime(double time) {
+        public Builder setTime(String time) {
             Time = time;
             return this;
         }
 
-        public Builder setAvailable(boolean available) {
+        public Builder setAvailable(String isAvailable) {
             isAvailable = isAvailable;
             return this;
         }
@@ -83,7 +83,7 @@ public class Timeslot<screeningRoom> {
                     '}';
         }
 
-        public Builder setIsAvailable(boolean isAvailable) {
+        public Builder setIsAvailable(String isAvailable) {
         return this;
         }
     }

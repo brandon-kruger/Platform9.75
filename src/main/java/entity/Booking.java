@@ -8,10 +8,11 @@
 package entity;
 
 public class Booking<Ticket, User> {
+    private static String location;
     private int referenceNumber,foodNumber, beverageNumber;
     private String date;
     private static String time;
-    private String location;
+//    private String location;
     private Ticket ticket;
     private User user;
 
@@ -58,7 +59,7 @@ public class Booking<Ticket, User> {
         return time;
     }
 
-    public String getLocation() {
+    public static String getLocation() {
         return location;
     }
 

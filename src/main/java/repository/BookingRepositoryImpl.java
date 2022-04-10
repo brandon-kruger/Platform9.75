@@ -8,7 +8,6 @@
 package repository;
 
 import entity.Booking;
-
 import java.util.HashSet;
 import java.util.Set;
 
@@ -26,6 +25,12 @@ public class BookingRepositoryImpl implements IBookingRepository {
             repository = new BookingRepositoryImpl();
         }
         return repository;
+    }
+
+    public static Booking createBooking(int referenceNumber, String date, String time, String location,
+                                        int foodNumber,int beveragesNumber) {
+        Booking Booking = null;
+        return null;
     }
 
     @Override
@@ -72,5 +77,8 @@ public class BookingRepositoryImpl implements IBookingRepository {
     @Override
     public Set<Booking> getAll() {
         return bookingDB;
+    }
+
+    public void deleteBooking(String location) {
     }
 }
