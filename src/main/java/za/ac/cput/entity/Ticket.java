@@ -1,7 +1,7 @@
 /* Ticket.java Entity using builder pattern
    Author: Guy De La Cruz (218336969)
    Date: 07/04/2022
-   */
+   **/
 
 package za.ac.cput.entity;
 
