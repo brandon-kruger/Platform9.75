@@ -42,6 +42,11 @@ public class TimeslotRepositoryImpl implements ITimeslotRepository {
     }
 
     @Override
+    public Timeslot read(Timeslot ID) {
+        return null;
+    }
+
+    @Override
     public Booking read(String ScreeningRoom) {
         for (Timeslot time : TimeslotDB) {
             if (time.getScreeningRoom().equals(time.isAvailable())) {
