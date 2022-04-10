@@ -5,7 +5,7 @@ Author: Brandon Lee Kruger (216049245)
 Date: 08 April 2022
 * */
 
-package entity;
+package za.ac.cput.entity;
 
 public class Cinema {
 
@@ -47,6 +47,16 @@ public class Cinema {
     public void setOperatingHours(String operatingHours) {
         this.operatingHours = operatingHours;
     }
+
+    @Override
+    public String toString() {
+        return "Builder{" +
+                "location='" + location + '\'' +
+                ", nameOfCinema='" + nameOfCinema + '\'' +
+                ", operatingHours='" + operatingHours + '\'' +
+                '}';
+    }
+
     public static class Builder {
         private String location;
         private String nameOfCinema;
@@ -67,6 +77,7 @@ public class Cinema {
             this.operatingHours = operatingHours;
             return this;
         }
+
 
         public Cinema build(){
             return new Cinema(this); //anonymous object (location, name or operating hours.)
