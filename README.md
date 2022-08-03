@@ -1,4 +1,5 @@
-# Platform9.75
+# Platform9.75 - Deprecated 03 - 08 - 2022
+
 Cinema Booking Ticket Management system.
 
 Domain problem: Entertainment: 
